@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from "styled-components"
 import { Button, Icon } from '../../../../components'
 import { Link, useNavigate } from 'react-router-dom'
-import { ROLE } from "../../../../constants";
-import { useDispatch, useSelector } from "react-redux";
-import { selectUserLogin, selectUserRole, selectUserSession } from "../../../../selectors";
-import { logout } from "../../../../actions";
+import { ROLE } from "../../../../constants"
+import { useDispatch, useSelector } from "react-redux"
+import { selectUserLogin, selectUserRole, selectUserSession } from "../../../../selectors"
+import { logout } from "../../../../actions"
 
 const RightAligned = styled.div`
   display: flex;
